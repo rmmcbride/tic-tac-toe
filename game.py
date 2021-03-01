@@ -54,7 +54,7 @@ class Game:
         Print the current grid
         """
         print(self.BUFFER)
-        rearranged = self.grid.reshape(self.width, self.height)
+        rearranged = self.grid.reshape(self.height, self.width)
 
         row_buffer = "--" * (self.width + 1)
 
